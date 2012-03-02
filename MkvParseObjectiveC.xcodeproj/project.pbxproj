@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEEB6401150093CC008300D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEB6400150093CC008300D4 /* Foundation.framework */; };
+		EEEB6404150093CC008300D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB6403150093CC008300D4 /* main.m */; };
+		EEEB6408150093CC008300D4 /* MkvParseObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEEB6407150093CC008300D4 /* MkvParseObjectiveC.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEEB63FA150093CC008300D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EEEB6408150093CC008300D4 /* MkvParseObjectiveC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEEB63FC150093CC008300D4 /* MkvParseObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MkvParseObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB6400150093CC008300D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEEB6403150093CC008300D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEEB6406150093CC008300D4 /* MkvParseObjectiveC-Prefix.pch */ = {isa = PBXFileReference; path = "MkvParseObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		EEEB6407150093CC008300D4 /* MkvParseObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MkvParseObjectiveC.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEB63F9150093CC008300D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB6401150093CC008300D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEB63F1150093CC008300D4 = {
+			isa = PBXGroup;
+			children = (
+				EEEB6402150093CC008300D4 /* MkvParseObjectiveC */,
+				EEEB63FF150093CC008300D4 /* Frameworks */,
+				EEEB63FD150093CC008300D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEB63FD150093CC008300D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB63FC150093CC008300D4 /* MkvParseObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEB63FF150093CC008300D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB6400150093CC008300D4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEEB6402150093CC008300D4 /* MkvParseObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB6403150093CC008300D4 /* main.m */,
+				EEEB6407150093CC008300D4 /* MkvParseObjectiveC.1 */,
+				EEEB6405150093CC008300D4 /* Supporting Files */,
+			);
+			path = MkvParseObjectiveC;
+			sourceTree = "<group>";
+		};
+		EEEB6405150093CC008300D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB6406150093CC008300D4 /* MkvParseObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEB63FB150093CC008300D4 /* MkvParseObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB640B150093CC008300D4 /* Build configuration list for PBXNativeTarget "MkvParseObjectiveC" */;
+			buildPhases = (
+				EEEB63F8150093CC008300D4 /* Sources */,
+				EEEB63F9150093CC008300D4 /* Frameworks */,
+				EEEB63FA150093CC008300D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkvParseObjectiveC;
+			productName = MkvParseObjectiveC;
+			productReference = EEEB63FC150093CC008300D4 /* MkvParseObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEB63F3150093CC008300D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "ss.greg@me.com";
+			};
+			buildConfigurationList = EEEB63F6150093CC008300D4 /* Build configuration list for PBXProject "MkvParseObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEEB63F1150093CC008300D4;
+			productRefGroup = EEEB63FD150093CC008300D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEB63FB150093CC008300D4 /* MkvParseObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEB63F8150093CC008300D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB6404150093CC008300D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEEB6409150093CC008300D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEEB640A150093CC008300D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEEB640C150093CC008300D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MkvParseObjectiveC/MkvParseObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEB640D150093CC008300D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MkvParseObjectiveC/MkvParseObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEB63F6150093CC008300D4 /* Build configuration list for PBXProject "MkvParseObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB6409150093CC008300D4 /* Debug */,
+				EEEB640A150093CC008300D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEB640B150093CC008300D4 /* Build configuration list for PBXNativeTarget "MkvParseObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB640C150093CC008300D4 /* Debug */,
+				EEEB640D150093CC008300D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEB63F3150093CC008300D4 /* Project object */;
+}
