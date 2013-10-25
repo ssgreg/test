@@ -2,9 +2,6 @@
 //  main.m
 //  MkvParseObjectiveC
 //
-//  Created by Grigory Zubankov on 02.03.12.
-//  Copyright (c) 2012 ss.greg@me.com. All rights reserved.
-//
 
 #include <iostream>
 #include <vector>
